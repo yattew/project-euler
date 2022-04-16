@@ -4,7 +4,7 @@
 
 -- By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.
 
-
+-- start with n = 1 and m = 0
 evenFib :: Int -> Int -> Int
 evenFib n m
   | n > 4000000 = 0
