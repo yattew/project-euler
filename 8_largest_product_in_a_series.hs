@@ -19,5 +19,5 @@ solution [x] _ = productS [x]
 solution number n
   | a > b = a
   | otherwise = b
-  where a = productS (next number 13)
-        b = solution (tail number) 13
+  where a = productS (next number n)
+        b = solution (tail number) n
